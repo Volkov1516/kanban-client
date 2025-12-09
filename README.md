@@ -1,27 +1,23 @@
-# vite-template-redux
+# KANBAN
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+[Web Page](https://project-2-bf0db.web.app/)
 
-```sh
-npx tiged reduxjs/redux-templates/packages/vite-template-redux my-app
-```
+## Description
+A project management application designed to provide project owners with clear analytics, managers with convenient task management, and team members with an easy way to submit requests through their favorite messenger.
 
-## Goals
+## Features
+- Complex project architecture including server, database, client, integrations and firebase
+- Nested board and component structure for scalable kanban workflows
+- Integration with messengers for creating task cards
+- Real-time feedback in the messenger when task status changes in the app
+- Comprehensive analytics for projects, components, and users
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+## Technologies
+- **Front-End:** HTML, CSS, Typescript, React, Redux
+- **UI Library:** Shadcn, Tailwind, DnD Kit
+- **Back-End:** Node, Express, Postgre, Firebase Auth
+- **Integration:** Telegram, Web Socket
+- **Hosting:** Firebase Hosting, Render
 
-## Scripts
-
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
-
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+## Installation
+The project is currently frozen and no longer actively maintained.
